@@ -236,3 +236,9 @@ footer p,a{
     color: var(--primary1);
 
 }
+
+@media only screen and (max-width: 950px) {
+    .card-overflow{
+        overflow-y:scroll ;
+    }
+}
